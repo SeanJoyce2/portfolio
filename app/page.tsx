@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <main>
+    <section className="border rounded p-4 max-w-md ">
       Sean Joyce
       <div>Frontend Developer</div>
-    </main>
+    </section>
   );
 }
