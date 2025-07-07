@@ -20,7 +20,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex gap-4 py-4 rounded justify-center pr-4 border m-2 bg-primary-foreground">
+    <nav className="sticky top-0 z-50 flex xl:gap-4 py-4 rounded justify-center border xl:m-2 bg-primary-foreground max-w-full">
       {navItems.map((item) => {
         const isActive = pathname === item.href;
 
