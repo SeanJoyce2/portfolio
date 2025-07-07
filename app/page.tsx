@@ -18,7 +18,7 @@ export default function Home() {
 
       <section className="max-w-full p-4">
         <div className="mb-2 text-2xl">My Work</div>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid xl:grid-cols-3 grid-cols-1  gap-4">
           <Card>
             <CardHeader>
               <CardTitle>Card Title</CardTitle>

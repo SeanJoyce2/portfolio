@@ -19,21 +19,19 @@ const navItems: NavItem[] = [
 const Navbar = () => {
   const pathname = usePathname();
 
-  console.log(pathname);
-
   return (
-    <nav className="flex gap-4 p-6 justify-end pr-4">
+    <nav className="flex gap-4 py-4 rounded justify-center pr-4 border m-2 bg-primary-foreground">
       {navItems.map((item) => {
         const isActive = pathname === item.href;
-
-        console.log(isActive, pathname, item.href);
 
         return (
           <Link
             key={item.href}
             href={item.href}
-            className={`no-underline text-gray-800  transition hover:font-bold ${
-              isActive ? "font-bold" : "font-medium"
+            className={` border py-2 px-4 rounded-2xl  ${
+              isActive
+                ? "font-bold border-primary"
+                : "font-medium border-secondary"
             }`}
           >
             {item.label}
