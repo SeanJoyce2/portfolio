@@ -17,7 +17,7 @@ const Header = () => {
             <div className="text-lg font-semibold">Sean Joyce</div>
             <nav className=" px-4 py-4 flex items-center">
 
-                <div className="hidden md:flex items-center gap-6">
+                <div className="flex items-center gap-6">
                     {navigationItems.map((item) => (
                         <HeaderButton key={item.link} link={item.link}>
                             {item.label}

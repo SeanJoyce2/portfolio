@@ -1,8 +1,9 @@
 import React from 'react';
 
-const HeaderButton = ({children, section}) => {
+const HeaderButton = ({children, link}) => {
     const scrollToSection = () => {
-        const element = document.getElementById(section);
+        const element = document.getElementById(link);
+        console.log(element)
         element?.scrollIntoView({behavior: 'smooth'});
     };
 
