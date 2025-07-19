@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = () => {
+const About = () => {
     return (
         <section
             id="about"
@@ -18,4 +18,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default About;

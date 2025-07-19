@@ -1,17 +1,17 @@
 "use client"
 
-import Header from "./components/header/header";
-import Hero from "./components/hero/hero";
-import Skills from "./components/skills/skills";
-import Projects from "./components/projects/projects";
-import Experience from "./components/experience/experience";
-import Contact from "./components/contact/contact"
+import Header from "./features/header/header";
+import About from "./features/about/about";
+import Skills from "./features/skills/skills";
+import Projects from "./features/projects/projects";
+import Experience from "./features/experience/experience";
+import Contact from "./features/contact/contact"
 
 export default function Home() {
     return (
         <div>
             <Header/>
-            <Hero/>
+            <About/>
             <Skills/>
             <Projects/>
             <Experience/>
